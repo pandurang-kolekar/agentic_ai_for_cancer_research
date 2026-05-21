@@ -218,9 +218,9 @@ This project is licensed under the MIT License - see [LICENSE](LICENSE) file for
 
 ## 📧 Contact & Support
 
-- **Email**: [your-email@example.com]
-- **Issues**: [GitHub Issues](https://github.com/yourusername/agentic_ai_for_cancer_research/issues)
-- **Discussions**: [GitHub Discussions](https://github.com/yourusername/agentic_ai_for_cancer_research/discussions)
+- **Email**: [pandurang.kolekar@gmail.com]
+- **Issues**: [GitHub Issues](https://github.com/pandurang-kolekar/agentic_ai_for_cancer_research/issues)
+- **Discussions**: [GitHub Discussions](https://github.com/pandurang-kolekar/agentic_ai_for_cancer_research/discussions)
 
 ---
 
@@ -231,9 +231,9 @@ If you use this book or code in your research, please cite:
 ```bibtex
 @book{agentic_ai_cancer_research_2024,
   title={Agentic AI for Cancer Research: Building Intelligent Systems for Computational Biology},
-  author={Your Name},
+  author={Pandurang Kolekar},
   year={2024},
-  publisher={Your Organization}
+  publisher={}
 }
 ```
 
@@ -248,7 +248,7 @@ If you use this book or code in your research, please cite:
 
 ---
 
-**Last Updated**: May 2024
+**Last Updated**: May 2026
 
 **Status**: 🚧 In Development
 
