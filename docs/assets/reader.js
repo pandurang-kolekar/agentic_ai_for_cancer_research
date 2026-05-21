@@ -35,6 +35,30 @@ function notebookPathFromEntry(entry) {
   return entry.path.replace('content/chapters/', 'chapters/').replace('/theory.md', '/notebook.ipynb');
 }
 
+function parseRepoSlug(repoBase) {
+  const match = repoBase.match(/^https:\/\/github\.com\/([^/]+)\/([^/]+)$/i);
+  if (!match) {
+    return null;
+  }
+  return { owner: match[1], repo: match[2] };
+}
+
+function buildNotebookUrl(repoBase, branch, notebookPath) {
+  const viewer = (window.BOOK_CONFIG && window.BOOK_CONFIG.notebookViewer) || 'github';
+  const slug = parseRepoSlug(repoBase);
+
+  if (slug && viewer === 'nbviewer') {
+    return `https://nbviewer.org/github/${slug.owner}/${slug.repo}/blob/${encodeURIComponent(branch)}/${notebookPath}`;
+  }
+  if (slug && viewer === 'colab') {
+    return `https://colab.research.google.com/github/${slug.owner}/${slug.repo}/blob/${encodeURIComponent(branch)}/${notebookPath}`;
+  }
+  if (slug && viewer === 'raw') {
+    return `https://raw.githubusercontent.com/${slug.owner}/${slug.repo}/${encodeURIComponent(branch)}/${notebookPath}`;
+  }
+  return `${repoBase}/blob/${encodeURIComponent(branch)}/${notebookPath}`;
+}
+
 function buildToc(catalog, currentId) {
   const toc = document.getElementById('toc');
   toc.innerHTML = '';
@@ -77,7 +101,7 @@ function setNotebookLink(entry) {
 
   if (repoBase && notebookPath) {
     const branch = (window.BOOK_CONFIG && window.BOOK_CONFIG.defaultBranch) || 'main';
-    notebookLink.href = `${repoBase}/blob/${encodeURIComponent(branch)}/${notebookPath}`;
+    notebookLink.href = buildNotebookUrl(repoBase, branch, notebookPath);
     notebookLink.style.display = 'inline';
   } else {
     notebookLink.style.display = 'none';

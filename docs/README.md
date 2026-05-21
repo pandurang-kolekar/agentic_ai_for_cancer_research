@@ -58,9 +58,19 @@ If your Pages host uses a custom domain or different repo/branch, edit [docs/ass
 ```js
 window.BOOK_CONFIG = {
 	repoUrl: 'https://github.com/<owner>/<repo>',
-	defaultBranch: 'main'
+	defaultBranch: 'main',
+	notebookViewer: 'nbviewer'
 };
 ```
+
+Notebook viewer modes in [docs/assets/config.js](docs/assets/config.js):
+
+- `nbviewer` (best for read-only hosted rendering)
+- `colab` (opens in Google Colab)
+- `github` (GitHub notebook page)
+- `raw` (raw `.ipynb` download/view)
+
+If your repository is private, notebook links are only accessible to users with repository access.
 
 ## Themes
 
