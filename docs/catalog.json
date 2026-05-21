@@ -1,0 +1,156 @@
+[
+  {
+    "id": "book-front-matter",
+    "type": "Front Matter",
+    "title": "Book Preface and Overview",
+    "description": "Book preface, structure, and learning context.",
+    "path": "content/agentic_ai_cancer_research_book.md"
+  },
+  {
+    "id": "chapter-01",
+    "type": "Chapter",
+    "title": "01. Introduction to Agentic AI in Cancer Research",
+    "description": "Foundations of agentic AI concepts in oncology.",
+    "path": "content/chapters/chapter_01_introduction_to_agentic_ai/theory.md"
+  },
+  {
+    "id": "chapter-02",
+    "type": "Chapter",
+    "title": "02. Computational Biology Foundations for AI",
+    "description": "Core biology and data fundamentals for AI systems.",
+    "path": "content/chapters/chapter_02_computational_biology_foundations/theory.md"
+  },
+  {
+    "id": "chapter-03",
+    "type": "Chapter",
+    "title": "03. Biomedical Data Ecosystems",
+    "description": "Data sources, harmonization, and curation workflows.",
+    "path": "content/chapters/chapter_03_biomedical_data_ecosystems/theory.md"
+  },
+  {
+    "id": "chapter-04",
+    "type": "Chapter",
+    "title": "04. Large Language Models for Biomedicine",
+    "description": "LLM architecture, adaptation, and biomedical safety.",
+    "path": "content/chapters/chapter_04_large_language_models/theory.md"
+  },
+  {
+    "id": "chapter-05",
+    "type": "Chapter",
+    "title": "05. Prompt Engineering for Scientific Discovery",
+    "description": "Prompt patterns for scientific and clinical workflows.",
+    "path": "content/chapters/chapter_05_prompt_engineering/theory.md"
+  },
+  {
+    "id": "chapter-06",
+    "type": "Chapter",
+    "title": "06. Retrieval-Augmented Generation in Oncology",
+    "description": "Grounded retrieval and evidence-driven generation.",
+    "path": "content/chapters/chapter_06_retrieval_augmented_generation/theory.md"
+  },
+  {
+    "id": "chapter-07",
+    "type": "Chapter",
+    "title": "07. AI Agents for Genomics and Variant Interpretation",
+    "description": "Agentic interpretation pipelines for genomic cases.",
+    "path": "content/chapters/chapter_07_ai_agents_genomics/theory.md"
+  },
+  {
+    "id": "chapter-08",
+    "type": "Chapter",
+    "title": "08. Multi-Agent Systems for Biomedical Research",
+    "description": "Role-based coordination and inter-agent governance.",
+    "path": "content/chapters/chapter_08_multi_agent_systems/theory.md"
+  },
+  {
+    "id": "chapter-09",
+    "type": "Chapter",
+    "title": "09. Autonomous Bioinformatics Workflow Orchestration",
+    "description": "Automated QC, scheduling, and workflow control.",
+    "path": "content/chapters/chapter_09_bioinformatics_orchestration/theory.md"
+  },
+  {
+    "id": "chapter-10",
+    "type": "Chapter",
+    "title": "10. Single-Cell and Spatial Omics Agents",
+    "description": "Cell identity, neighborhood signals, and atlas reasoning.",
+    "path": "content/chapters/chapter_10_single_cell_spatial_omics/theory.md"
+  },
+  {
+    "id": "chapter-11",
+    "type": "Chapter",
+    "title": "11. Knowledge Graphs and Biomedical Reasoning",
+    "description": "Graph-based evidence integration and reasoning paths.",
+    "path": "content/chapters/chapter_11_knowledge_graphs/theory.md"
+  },
+  {
+    "id": "chapter-12",
+    "type": "Chapter",
+    "title": "12. AI for Clinical and Translational Oncology",
+    "description": "Clinical matching and translational decision support.",
+    "path": "content/chapters/chapter_12_clinical_translational_oncology/theory.md"
+  },
+  {
+    "id": "chapter-13",
+    "type": "Chapter",
+    "title": "13. Evaluating Biomedical AI Systems",
+    "description": "Metrics, subgroup audits, and reliability analysis.",
+    "path": "content/chapters/chapter_13_evaluating_biomedical_ai/theory.md"
+  },
+  {
+    "id": "chapter-14",
+    "type": "Chapter",
+    "title": "14. Ethics, Governance, and Responsible AI",
+    "description": "Policy controls, oversight, and risk governance.",
+    "path": "content/chapters/chapter_14_ethics_governance/theory.md"
+  },
+  {
+    "id": "chapter-15",
+    "type": "Chapter",
+    "title": "15. Building End-to-End Precision Oncology Systems",
+    "description": "System design for integrated precision oncology pipelines.",
+    "path": "content/chapters/chapter_15_precision_oncology_systems/theory.md"
+  },
+  {
+    "id": "chapter-16",
+    "type": "Chapter",
+    "title": "16. Future Directions in Autonomous Scientific Discovery",
+    "description": "Roadmaps for next-generation autonomous science.",
+    "path": "content/chapters/chapter_16_future_directions/theory.md"
+  },
+  {
+    "id": "chapter-17",
+    "type": "Chapter",
+    "title": "17. Capstone Projects and Research Challenges",
+    "description": "Capstone planning and project execution pathways.",
+    "path": "content/chapters/chapter_17_capstone_projects/theory.md"
+  },
+  {
+    "id": "appendix-a",
+    "type": "Appendix",
+    "title": "Appendix A. Python for Bioinformatics",
+    "description": "Practical Python essentials for biological data work.",
+    "path": "content/appendices/appendix_a_python_bioinformatics.md"
+  },
+  {
+    "id": "appendix-b",
+    "type": "Appendix",
+    "title": "Appendix B. APIs and Biomedical Databases",
+    "description": "Programmatic biomedical resources and API usage.",
+    "path": "content/appendices/appendix_b_biomedical_apis.md"
+  },
+  {
+    "id": "appendix-c",
+    "type": "Appendix",
+    "title": "Appendix C. GPU Infrastructure",
+    "description": "Compute infrastructure guidance for model workloads.",
+    "path": "content/appendices/appendix_c_gpu_infrastructure.md"
+  },
+  {
+    "id": "appendix-f",
+    "type": "Appendix",
+    "title": "Appendix F. Notebook Setup Guide",
+    "description": "Environment and notebook setup instructions.",
+    "path": "content/appendices/appendix_f_notebook_setup.md"
+  }
+]

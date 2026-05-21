@@ -1,0 +1,74 @@
+[
+  {
+    "content": "Study breast_cptac_gdc (Breast Cancer (CPTAC GDC, 2025)) includes context term: Breast Cancer",
+    "metadata": {
+      "study_id": "breast_cptac_gdc",
+      "source": "cBioPortal API",
+      "record_version": "v1",
+      "retrieved_at_utc": "2026-05-21T13:39:41.113414+00:00"
+    }
+  },
+  {
+    "content": "Study glioma_mskcc_2019 (Glioma (MSK, Clin Cancer Res 2019)) includes context term: Glioma",
+    "metadata": {
+      "study_id": "glioma_mskcc_2019",
+      "source": "cBioPortal API",
+      "record_version": "v1",
+      "retrieved_at_utc": "2026-05-21T13:39:41.113414+00:00"
+    }
+  },
+  {
+    "content": "Study os_target_gdc (Osteosarcoma (TARGET GDC, 2025)) includes context term: Osteosarcoma",
+    "metadata": {
+      "study_id": "os_target_gdc",
+      "source": "cBioPortal API",
+      "record_version": "v1",
+      "retrieved_at_utc": "2026-05-21T13:39:41.113414+00:00"
+    }
+  },
+  {
+    "content": "Study prad_msk_mdanderson_2023 (Prostate Cancer MDA PCa PDX (MD Anderson, Clin Cancer Res 2024)) includes context term: Prostate Cancer MDA PCa PDX",
+    "metadata": {
+      "study_id": "prad_msk_mdanderson_2023",
+      "source": "cBioPortal API",
+      "record_version": "v1",
+      "retrieved_at_utc": "2026-05-21T13:39:41.113414+00:00"
+    }
+  },
+  {
+    "content": "Study uec_cptac_gdc (Uterine Endometrioid Carcinoma (CPTAC GDC, 2025)) includes context term: Uterine Endometrioid Carcinoma",
+    "metadata": {
+      "study_id": "uec_cptac_gdc",
+      "source": "cBioPortal API",
+      "record_version": "v1",
+      "retrieved_at_utc": "2026-05-21T13:39:41.113414+00:00"
+    }
+  },
+  {
+    "content": "Study blca_cornell_2016 (Urothelial Carcinoma (Cornell/Trento, Nat Gen 2016)) includes context term: Urothelial Carcinoma",
+    "metadata": {
+      "study_id": "blca_cornell_2016",
+      "source": "cBioPortal API",
+      "record_version": "v1",
+      "retrieved_at_utc": "2026-05-21T13:39:41.113414+00:00"
+    }
+  },
+  {
+    "content": "Study bcc_unige_2016 (Basal Cell Carcinoma (UNIGE, Nat Genet 2016)) includes context term: Basal Cell Carcinoma",
+    "metadata": {
+      "study_id": "bcc_unige_2016",
+      "source": "cBioPortal API",
+      "record_version": "v1",
+      "retrieved_at_utc": "2026-05-21T13:39:41.113414+00:00"
+    }
+  },
+  {
+    "content": "Study coadread_tcga (Colorectal Adenocarcinoma (TCGA, Firehose Legacy)) includes context term: Colorectal Adenocarcinoma",
+    "metadata": {
+      "study_id": "coadread_tcga",
+      "source": "cBioPortal API",
+      "record_version": "v1",
+      "retrieved_at_utc": "2026-05-21T13:39:41.113414+00:00"
+    }
+  }
+]

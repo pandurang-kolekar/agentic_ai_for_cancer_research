@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Agentic AI for Cancer Research</title>
+  <link rel="stylesheet" href="assets/site.css">
+</head>
+<body>
+  <header class="hero">
+    <div class="hero-inner">
+      <p class="eyebrow">GitHub Pages Edition</p>
+      <h1>Agentic AI for Cancer Research</h1>
+      <p class="subtitle">Building intelligent systems for computational biology, translational oncology, and reproducible biomedical discovery.</p>
+      <div class="hero-actions">
+        <a class="btn" href="reader.html?id=book-front-matter">Start Reading</a>
+        <a class="btn btn-ghost" href="reader.html?id=chapter-01">Jump to Chapter 1</a>
+        <div class="theme-switch">
+          <label for="theme-picker-home">Theme</label>
+          <select id="theme-picker-home" class="theme-picker" aria-label="Select book theme">
+            <option value="clinical-journal">Clinical Journal</option>
+            <option value="data-atlas">Data Atlas</option>
+            <option value="lab-notebook">Lab Notebook</option>
+            <option value="material-docs">Material Docs</option>
+            <option value="sphinx-classic">Sphinx Classic</option>
+          </select>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <section>
+      <h2>Book Navigation</h2>
+      <p class="section-intro">Browse chapters and appendices. Each page is rendered from markdown hosted in this repository.</p>
+      <div class="search-wrap">
+        <label for="catalog-search">Search chapters and appendices</label>
+        <input id="catalog-search" type="search" placeholder="Try: genomics, ethics, precision oncology" autocomplete="off">
+      </div>
+      <div id="chapter-grid" class="grid"></div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>MIT Licensed. Built for GitHub Pages.</p>
+  </footer>
+
+  <script src="assets/config.js"></script>
+  <script src="assets/home.js"></script>
+</body>
+</html>

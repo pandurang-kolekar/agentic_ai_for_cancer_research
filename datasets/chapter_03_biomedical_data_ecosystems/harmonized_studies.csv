@@ -1,0 +1,51 @@
+study_id,study_name,tumor_hint,age_context,source,retrieved_at_utc,record_version
+breast_cptac_gdc,"Breast Cancer (CPTAC GDC, 2025)",Breast Cancer,adult_or_unspecified,cBioPortal API,2026-05-21T13:47:06.528340+00:00,v1
+glioma_mskcc_2019,"Glioma (MSK, Clin Cancer Res 2019)",Glioma,adult_or_unspecified,cBioPortal API,2026-05-21T13:47:06.528340+00:00,v1
+os_target_gdc,"Osteosarcoma (TARGET GDC, 2025)",Osteosarcoma,pediatric_or_aya,cBioPortal API,2026-05-21T13:47:06.528340+00:00,v1
+prad_msk_mdanderson_2023,"Prostate Cancer MDA PCa PDX (MD Anderson, Clin Cancer Res 2024)",Prostate Cancer MDA PCa PDX,adult_or_unspecified,cBioPortal API,2026-05-21T13:47:06.528340+00:00,v1
+uec_cptac_gdc,"Uterine Endometrioid Carcinoma (CPTAC GDC, 2025)",Uterine Endometrioid Carcinoma,adult_or_unspecified,cBioPortal API,2026-05-21T13:47:06.528340+00:00,v1
+blca_cornell_2016,"Urothelial Carcinoma (Cornell/Trento, Nat Gen 2016)",Urothelial Carcinoma,adult_or_unspecified,cBioPortal API,2026-05-21T13:47:06.528340+00:00,v1
+bcc_unige_2016,"Basal Cell Carcinoma (UNIGE, Nat Genet 2016)",Basal Cell Carcinoma,adult_or_unspecified,cBioPortal API,2026-05-21T13:47:06.528340+00:00,v1
+coadread_tcga,"Colorectal Adenocarcinoma (TCGA, Firehose Legacy)",Colorectal Adenocarcinoma,adult_or_unspecified,cBioPortal API,2026-05-21T13:47:06.528340+00:00,v1
+luad_cptac_gdc,"Lung Adenocarcinoma (CPTAC GDC, 2025)",Lung Adenocarcinoma,adult_or_unspecified,cBioPortal API,2026-05-21T13:47:06.528340+00:00,v1
+brca_broad,"Breast Invasive Carcinoma (Broad, Nature 2012)",Breast Invasive Carcinoma,adult_or_unspecified,cBioPortal API,2026-05-21T13:47:06.528340+00:00,v1
+dlbc_tcga_pan_can_atlas_2018,"Diffuse Large B-Cell Lymphoma (TCGA, PanCancer Atlas)",Diffuse Large B-Cell Lymphoma,adult_or_unspecified,cBioPortal API,2026-05-21T13:47:06.528340+00:00,v1
+rbl_cfdna_msk_2020,"Retinoblastoma cfDNA (MSK, Cancer Med 2020)",Retinoblastoma cfDNA,adult_or_unspecified,cBioPortal API,2026-05-21T13:47:06.528340+00:00,v1
+appendiceal_msk_2022,"Appendiceal Cancer (MSK, J Clin Oncol 2022)",Appendiceal Cancer,adult_or_unspecified,cBioPortal API,2026-05-21T13:47:06.528340+00:00,v1
+ucec_msk_dacruzpaula_2025,Evolution and co-occurrence of PI3K pathway gene mutations in endometrial carcinoma molecular subtypes at the single-cell level,"Breast Cancer (CPTAC GDC, 2025)",adult_or_unspecified,cBioPortal API,2026-05-21T13:47:06.528340+00:00,v1
+blca_pdx_msk_2025,"Urothelial Cancer Patient Derived Organoids (MSK, 2025)",Urothelial Cancer Patient Derived Organoids,adult_or_unspecified,cBioPortal API,2026-05-21T13:47:06.528340+00:00,v1
+ucec_tcga_gdc,"Endometrial Carcinoma (TCGA GDC, 2025)",Endometrial Carcinoma,adult_or_unspecified,cBioPortal API,2026-05-21T13:47:06.528340+00:00,v1
+acyc_jhu_2016,"Adenoid Cystic Carcinoma (JHU, Cancer Prev Res 2016)",Adenoid Cystic Carcinoma,adult_or_unspecified,cBioPortal API,2026-05-21T13:47:06.528340+00:00,v1
+ucec_tcga_pan_can_atlas_2018,"Uterine Corpus Endometrial Carcinoma (TCGA, PanCancer Atlas)",Uterine Corpus Endometrial Carcinoma,adult_or_unspecified,cBioPortal API,2026-05-21T13:47:06.528340+00:00,v1
+acc_tcga,"Adrenocortical Carcinoma (TCGA, Firehose Legacy)",Adrenocortical Carcinoma,adult_or_unspecified,cBioPortal API,2026-05-21T13:47:06.528340+00:00,v1
+msk_spectrum_tme_2022,"Ovarian Cancer - MSK SPECTRUM (MSK, Nature 2022)",Ovarian Cancer - MSK SPECTRUM,adult_or_unspecified,cBioPortal API,2026-05-21T13:47:06.528340+00:00,v1
+dlbcl_duke_2017,"Diffuse Large B-Cell Lymphoma (Duke, Cell 2017)",Diffuse Large B-Cell Lymphoma,adult_or_unspecified,cBioPortal API,2026-05-21T13:47:06.528340+00:00,v1
+ntrk_msk_2019,"Tumors with TRK fusions (MSK, Clin Cancer Res 2020)",Tumors with TRK fusions,adult_or_unspecified,cBioPortal API,2026-05-21T13:47:06.528340+00:00,v1
+mel_iatlas_hugo_ucla_2016,"Metastatic Melanoma (UCLA, Cell 2016) - iAtlas Harmonized",Metastatic Melanoma,adult_or_unspecified,cBioPortal API,2026-05-21T13:47:06.528340+00:00,v1
+prad_mskcc_cheny1_organoids_2014,"Prostate Adenocarcinoma Organoids (MSK, Cell 2014)",Prostate Adenocarcinoma Organoids,adult_or_unspecified,cBioPortal API,2026-05-21T13:47:06.528340+00:00,v1
+thym_tcga_pan_can_atlas_2018,"Thymoma (TCGA, PanCancer Atlas)",Thymoma,adult_or_unspecified,cBioPortal API,2026-05-21T13:47:06.528340+00:00,v1
+hcc_meric_2021,"Hepatocellular Carcinoma (MERiC/Basel, Nat Commun. 2022)",Hepatocellular Carcinoma,adult_or_unspecified,cBioPortal API,2026-05-21T13:47:06.528340+00:00,v1
+blca_msk_2025,"Bladder Cancer (MSK, Eur Urol Open Sci 2025)",Bladder Cancer,adult_or_unspecified,cBioPortal API,2026-05-21T13:47:06.528340+00:00,v1
+lihc_tcga,"Liver Hepatocellular Carcinoma (TCGA, Firehose Legacy)",Liver Hepatocellular Carcinoma,adult_or_unspecified,cBioPortal API,2026-05-21T13:47:06.528340+00:00,v1
+blca_tcga_gdc,"Bladder Urothelial Carcinoma (TCGA GDC, 2025)",Bladder Urothelial Carcinoma,adult_or_unspecified,cBioPortal API,2026-05-21T13:47:06.528340+00:00,v1
+crc_apc_impact_2020,"Colorectal Cancer (MSK, Gastroenterology 2020)",Colorectal Cancer,adult_or_unspecified,cBioPortal API,2026-05-21T13:47:06.528340+00:00,v1
+lung_msk_pdx,"Thoracic PDX (MSK, Provisional)",Thoracic PDX,adult_or_unspecified,cBioPortal API,2026-05-21T13:47:06.528340+00:00,v1
+mpcproject_broad_2021,"The Metastatic Prostate Cancer Project (Provisional, June 2021)",The Metastatic Prostate Cancer Project,adult_or_unspecified,cBioPortal API,2026-05-21T13:47:06.528340+00:00,v1
+coad_cptac_gdc,"Colon Adenocarcinoma (CPTAC GDC, 2025)",Colon Adenocarcinoma,adult_or_unspecified,cBioPortal API,2026-05-21T13:47:06.528340+00:00,v1
+mixed_allen_2018,"MSS Mixed Solid Tumors (Broad/Dana-Farber, Nat Genet 2018)",MSS Mixed Solid Tumors,adult_or_unspecified,cBioPortal API,2026-05-21T13:47:06.528340+00:00,v1
+kirc_tcga_pub,"Kidney Renal Clear Cell Carcinoma (TCGA, Nature 2013)",Kidney Renal Clear Cell Carcinoma,adult_or_unspecified,cBioPortal API,2026-05-21T13:47:06.528340+00:00,v1
+msk_impact_50k_2026,"MSK-IMPACT 50K Clinical Sequencing Cohort (MSK, Cancer Cell 2026)",MSK-IMPACT 50K Clinical Sequencing Cohort,adult_or_unspecified,cBioPortal API,2026-05-21T13:47:06.528340+00:00,v1
+ampca_bcm_2016,"Ampullary Carcinoma (Baylor College of Medicine, Cell Reports 2016)",Ampullary Carcinoma,adult_or_unspecified,cBioPortal API,2026-05-21T13:47:06.528340+00:00,v1
+pcpg_tcga_pan_can_atlas_2018,"Pheochromocytoma and Paraganglioma (TCGA, PanCancer Atlas)",Pheochromocytoma and Paraganglioma,adult_or_unspecified,cBioPortal API,2026-05-21T13:47:06.528340+00:00,v1
+paad_qcmg_uq_2016,"Pancreatic Adenocarcinoma (QCMG, Nature 2016)",Pancreatic Adenocarcinoma,adult_or_unspecified,cBioPortal API,2026-05-21T13:47:06.528340+00:00,v1
+cll_broad_2022,"Chronic Lymphocytic Leukemia (Broad, Nature Genetics 2022)",Chronic Lymphocytic Leukemia,adult_or_unspecified,cBioPortal API,2026-05-21T13:47:06.528340+00:00,v1
+luad_mskimpact_2021,"Lung Adenocarcinoma (MSK, 2021)",Lung Adenocarcinoma,adult_or_unspecified,cBioPortal API,2026-05-21T13:47:06.528340+00:00,v1
+brca_hta9_htan_2022,"Breast Cancer (HTAN, 2022)",Breast Cancer,adult_or_unspecified,cBioPortal API,2026-05-21T13:47:06.528340+00:00,v1
+skcm_yale,"Skin Cutaneous Melanoma (Yale, Nat Genet 2012)",Skin Cutaneous Melanoma,adult_or_unspecified,cBioPortal API,2026-05-21T13:47:06.528340+00:00,v1
+lung_nci_2022,"Lung Cancer in Never Smokers (NCI, Nature Genetics 2021)",Lung Cancer in Never Smokers,adult_or_unspecified,cBioPortal API,2026-05-21T13:47:06.528340+00:00,v1
+ucec_ccr_msk_2022,"Endometrial Carcinoma MSI (MSK, Clin Cancer Res 2022)",Endometrial Carcinoma MSI,adult_or_unspecified,cBioPortal API,2026-05-21T13:47:06.528340+00:00,v1
+dlbc_broad_2012,"Diffuse Large B-Cell Lymphoma (Broad, PNAS 2012)",Diffuse Large B-Cell Lymphoma,adult_or_unspecified,cBioPortal API,2026-05-21T13:47:06.528340+00:00,v1
+blca_iatlas_imvigor210_2017,"Metastatic Bladder Urothelial Carcinoma (IMvigor210 Phase II Trial, ESMO Open. 2024) - iAtlas Harmonized",Metastatic Bladder Urothelial Carcinoma,adult_or_unspecified,cBioPortal API,2026-05-21T13:47:06.528340+00:00,v1
+thyroid_mskcc_2016,"Poorly-Differentiated and Anaplastic Thyroid Cancers (MSK, JCI 2016)",Poorly-Differentiated and Anaplastic Thyroid Cancers,adult_or_unspecified,cBioPortal API,2026-05-21T13:47:06.528340+00:00,v1
+rectal_msk_2019,"Rectal Cancer (MSK,Nature Medicine 2019)",Rectal Cancer,adult_or_unspecified,cBioPortal API,2026-05-21T13:47:06.528340+00:00,v1
+thym_tcga_gdc,"Thymoma (TCGA GDC, 2025)",Thymoma,adult_or_unspecified,cBioPortal API,2026-05-21T13:47:06.528340+00:00,v1
