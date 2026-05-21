@@ -25,6 +25,20 @@ This repository includes a workflow at `.github/workflows/pages.yml` that deploy
 4. Set Source to `GitHub Actions`.
 5. Confirm the deploy succeeds in the Actions tab.
 
+## Fallback: Publish via gh-pages branch
+
+If `Deploy Pages` fails due to Pages API issues, use the fallback workflow at `.github/workflows/pages-branch-fallback.yml`.
+
+1. Push your changes (or run the workflow manually from Actions).
+2. Wait for workflow `Deploy Pages (gh-pages fallback)` to succeed.
+3. Open repository Settings.
+4. Go to Pages.
+5. Set Source to `Deploy from a branch`.
+6. Select branch `gh-pages` and folder `/ (root)`.
+7. Save.
+
+This flow publishes the built site directly to `gh-pages` and does not rely on `configure-pages`.
+
 ## Structure
 
 - `index.html` home page
