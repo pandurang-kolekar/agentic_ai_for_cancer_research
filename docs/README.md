@@ -59,7 +59,7 @@ If your Pages host uses a custom domain or different repo/branch, edit [docs/ass
 window.BOOK_CONFIG = {
 	repoUrl: 'https://github.com/<owner>/<repo>',
 	defaultBranch: 'main',
-	notebookViewer: 'nbviewer'
+	notebookViewer: 'github'
 };
 ```
 
@@ -69,6 +69,8 @@ Notebook viewer modes in [docs/assets/config.js](docs/assets/config.js):
 - `colab` (opens in Google Colab)
 - `github` (GitHub notebook page)
 - `raw` (raw `.ipynb` download/view)
+
+If you see `503` or GitHub API rate-limit errors, use `github` or `colab` in config. The `nbviewer` mode now uses raw-content URLs to reduce API-limit failures.
 
 If your repository is private, notebook links are only accessible to users with repository access.
 

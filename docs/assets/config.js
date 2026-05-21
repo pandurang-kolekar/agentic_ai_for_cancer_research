@@ -2,7 +2,7 @@ window.BOOK_CONFIG = {
   repoUrl: 'https://github.com/pkolekar/agentic_ai_for_cancer_research',
   defaultBranch: 'main',
   theme: 'clinical-journal',
-  notebookViewer: 'nbviewer'
+  notebookViewer: 'github'
 };
 
 window.BOOK_THEMES = [

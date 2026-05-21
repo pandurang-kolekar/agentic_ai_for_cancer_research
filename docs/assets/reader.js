@@ -48,7 +48,7 @@ function buildNotebookUrl(repoBase, branch, notebookPath) {
   const slug = parseRepoSlug(repoBase);
 
   if (slug && viewer === 'nbviewer') {
-    return `https://nbviewer.org/github/${slug.owner}/${slug.repo}/blob/${encodeURIComponent(branch)}/${notebookPath}`;
+    return `https://nbviewer.org/urls/raw.githubusercontent.com/${slug.owner}/${slug.repo}/${encodeURIComponent(branch)}/${notebookPath}`;
   }
   if (slug && viewer === 'colab') {
     return `https://colab.research.google.com/github/${slug.owner}/${slug.repo}/blob/${encodeURIComponent(branch)}/${notebookPath}`;
