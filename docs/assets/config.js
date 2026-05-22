@@ -1,5 +1,5 @@
 window.BOOK_CONFIG = {
-  repoUrl: 'https://github.com/pkolekar/agentic_ai_for_cancer_research',
+  repoUrl: 'https://github.com/pandurang-kolekar/agentic_ai_for_cancer_research',
   defaultBranch: 'main',
   theme: 'clinical-journal',
   notebookViewer: 'github'
