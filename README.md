@@ -110,7 +110,7 @@ agentic_ai_for_cancer_research/
 - Python 3.10+
 - Jupyter Notebook/Lab
 - Git
-- 8GB RAM (minimum for most notebooks)
+- 8GB RAM (minimum for most notebooks) 
 
 ### Installation
 
