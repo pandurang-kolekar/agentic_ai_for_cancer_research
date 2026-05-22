@@ -158,6 +158,25 @@ a {
   color: var(--hero-subtitle);
 }
 
+.author-line {
+  margin: 0.2rem 0 0;
+  color: var(--hero-subtitle);
+  font-family: var(--font-ui);
+  font-size: 0.96rem;
+}
+
+.author-link {
+  color: inherit;
+  font-weight: 700;
+  text-decoration: underline;
+  text-decoration-thickness: 0.12em;
+  text-underline-offset: 0.15em;
+}
+
+.author-link:hover {
+  opacity: 0.88;
+}
+
 .hero-actions {
   margin-top: 1.4rem;
   display: flex;
@@ -352,6 +371,12 @@ h3,
   justify-content: space-between;
 }
 
+.author-link-header {
+  font-size: 0.92rem;
+  font-family: var(--font-ui);
+  white-space: nowrap;
+}
+
 .brand {
   text-decoration: none;
   color: var(--ink);
@@ -470,6 +495,10 @@ h3,
     flex-direction: column;
     align-items: flex-start;
     gap: 0.55rem;
+  }
+
+  .author-link-header {
+    white-space: normal;
   }
 
   .reader-header nav {
