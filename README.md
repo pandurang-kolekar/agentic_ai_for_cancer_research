@@ -6,6 +6,10 @@ A Practical Guide with Theory, Hands-On Labs, and Research Workflows
 
 ---
 
+⚠️ **Caution:** This repository is in active development and should be treated as a pre-release resource, not a production-ready or validated reference. Content, code, notebooks, and results may change and may contain incomplete or unvalidated material.
+
+---
+
 ## 📖 About This Book
 
 This book introduces the foundations and practical implementation of agentic AI systems for computational oncology and bioinformatics. It combines modern AI methods, large language models (LLMs), retrieval systems, knowledge graphs, autonomous workflows, and multi-agent systems with real-world cancer research applications.
