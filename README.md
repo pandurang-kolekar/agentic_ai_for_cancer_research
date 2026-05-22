@@ -63,8 +63,6 @@ The book emphasizes:
 - [Python for Bioinformatics](appendices/appendix_a_python_bioinformatics.md)
 - [APIs and Biomedical Databases](appendices/appendix_b_biomedical_apis.md)
 - [GPU Infrastructure](appendices/appendix_c_gpu_infrastructure.md)
-- [Docker and Reproducibility](appendices/appendix_d_docker_reproducibility.md)
-- [Cloud Deployment](appendices/appendix_e_cloud_deployment.md)
 - [Notebook Setup Guide](appendices/appendix_f_notebook_setup.md)
 
 ---
@@ -120,7 +118,7 @@ agentic_ai_for_cancer_research/
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/agentic_ai_for_cancer_research.git
+   git clone https://github.com/pandurang-kolekar/agentic_ai_for_cancer_research.git
    cd agentic_ai_for_cancer_research
    ```
 
@@ -224,7 +222,7 @@ This project is licensed under the MIT License - see [LICENSE](LICENSE) file for
 
 - **Email**: [pandurang.kolekar@gmail.com]
 - **Issues**: [GitHub Issues](https://github.com/pandurang-kolekar/agentic_ai_for_cancer_research/issues)
-- **Discussions**: [GitHub Discussions](https://github.com/pandurang-kolekar/agentic_ai_for_cancer_research/discussions)
+- **Repository**: [GitHub Repository](https://github.com/pandurang-kolekar/agentic_ai_for_cancer_research)
 
 ---
 
@@ -246,9 +244,9 @@ If you use this book or code in your research, please cite:
 ## 📚 Additional Resources
 
 - [Bioinformatics Databases](resources/biomedical_databases.md)
-- [Cloud Setup Guide](resources/cloud_setup_guide.md)
-- [Hardware Requirements](resources/hardware_guide.md)
-- [Troubleshooting](resources/troubleshooting.md)
+- [Environment Setup Guide](resources/setup_guide.md)
+- [Conda Environment Specification](resources/environments.yml)
+- [Python Requirements](resources/requirements.txt)
 
 ---
 
