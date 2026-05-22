@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Book Reader</title>
+  <link rel="stylesheet" href="assets/site.css">
+</head>
+<body class="reader-body">
+  <header class="reader-header">
+    <a href="index.html" class="brand">Agentic AI for Cancer Research</a>
+    <a class="author-link author-link-header" href="https://www.linkedin.com/in/pandurang-kolekar" target="_blank" rel="noopener noreferrer">Pandurang Kolekar</a>
+    <nav>
+      <label for="theme-picker-reader" class="theme-inline-label">Theme</label>
+      <select id="theme-picker-reader" class="theme-picker" aria-label="Select book theme">
+        <option value="clinical-journal">Clinical Journal</option>
+        <option value="data-atlas">Data Atlas</option>
+        <option value="lab-notebook">Lab Notebook</option>
+        <option value="material-docs">Material Docs</option>
+        <option value="sphinx-classic">Sphinx Classic</option>
+      </select>
+      <a id="notebook-link" href="#" target="_blank" rel="noopener noreferrer">Open Notebook</a>
+      <a id="prev-link" href="#">Previous</a>
+      <a id="next-link" href="#">Next</a>
+    </nav>
+  </header>
+
+  <section class="flag-note flag-note-reader" role="note" aria-label="Work in progress notice">
+    <p><strong>🚩 Work in Progress:</strong> This repository is in active development and should be treated as a pre-release resource, not a production-ready or validated reference. Content, code, notebooks, and results may change and may contain incomplete or unvalidated material.</p>
+  </section>
+
+  <main class="reader-layout">
+    <aside class="reader-sidebar">
+      <h2>Contents</h2>
+      <ul id="toc"></ul>
+    </aside>
+    <article class="reader-content">
+      <h1 id="doc-title">Loading...</h1>
+      <div id="doc-meta" class="doc-meta"></div>
+      <div id="markdown-content" class="markdown"></div>
+    </article>
+  </main>
+
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+  <script src="assets/config.js"></script>
+  <script src="assets/reader.js"></script>
+</body>
+</html>
